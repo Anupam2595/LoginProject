@@ -1,4 +1,4 @@
-# LoginProject
+# Login/Signup Project
 Login/Signup Project using react node express and mongodb.
 
 
