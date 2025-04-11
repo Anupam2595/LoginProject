@@ -24,7 +24,7 @@ navigate('/login');
 
   const fetchProducts=async()=>{
     try{
-const url='http://localhost:8088/products';
+const url='https://login-project-wine.vercel.app/products';
 const headers={
   headers:{
     'Authorization':localStorage.getItem('token')
