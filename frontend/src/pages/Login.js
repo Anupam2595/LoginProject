@@ -29,7 +29,7 @@ function Login() {
         }
         try{
 
-            const url="http://localHost:8088/auth/login";
+            const url="https://login-project-wine.vercel.app/auth/login";
             const response=await fetch(url,{
                 method:"POST",
                 headers:{
